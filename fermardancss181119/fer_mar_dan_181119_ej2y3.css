@@ -1,0 +1,48 @@
+li a:hover{
+    background-color: darkgray;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.activofermardan{
+    background-color: lightblue;
+    
+}
+
+.contenedorfermardan{
+    width: 95%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border: black 1px solid;
+}
+.imgfermardan{
+    float: left;
+    width: 25%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    
+}
+img{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
